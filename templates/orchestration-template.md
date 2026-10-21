@@ -100,6 +100,7 @@
 - 커버리지(Coverage)와 동반 변경(Co-change) 누락:
 - 실제 결과가 다시 연 의미 질문:
 - 추가 리플렉션(Reflection) 또는 프로브(Probe):
+- 경계 조건(Edge Case):
 
 ## 오케스트레이션(Orchestration) 완결(Closure)
 

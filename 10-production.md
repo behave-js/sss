@@ -428,6 +428,7 @@ EIFS를 적용할 때는 다음 사항도 함께 검토한다.
 - 구현할 결정과 각 결정의 출처(상속된 의도(Inherited Intent)/수용된 변경(Accepted Change)/작업 결정(Working Decision)/구현 국소 선택(Implementation-local Choice))
 - 미확인(Unknown)을 코드에서 다루기 위한 Assumption
 - 정상·실패·취소·중단 종료 조건
+- 식별된 경계 조건(Edge Case)
 - 참조한 관념(Notion)의 현재 이름과 판본
 
 프로덕션(Production)은 SSS 전체의 관문이 아니다. 그러나 프로덕션(Production) 안에서 코딩은 이 고정 기록 뒤에 시작한다. 구현 도중 기록에 없는 의미 결정이 필요해지면 코드에서 조용히 정하지 않고 작업 결정(Working Decision)으로 먼저 추가한다.
@@ -454,7 +455,7 @@ EIFS를 적용할 때는 다음 사항도 함께 검토한다.
 
 ### 10.7 프로덕션(Production) 중 발견을 환류한다
 
-새 액터(Actor), 소품(Prop), 씬(Scene), 엣지(edge), 완결(Closure), 관념(Notion), 텐션(Tension)과 근거(Evidence)를 해당 정본으로 되돌린다. 구현에만 필요한 상세는 프로덕션(Production) 산출물(artifact)에 남겨도 된다.
+새 액터(Actor), 소품(Prop), 씬(Scene), 엣지(edge), 완결(Closure), 관념(Notion), 텐션(Tension), 경계 조건(Edge Case)과 근거(Evidence)를 해당 정본으로 되돌린다. 구현에만 필요한 상세는 프로덕션(Production) 산출물(artifact)에 남겨도 된다.
 
 ### 10.8 결과를 리플렉션(Reflection)으로 넘긴다
 

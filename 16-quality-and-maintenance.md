@@ -81,6 +81,8 @@ Scenario-Semantic Synthesis(SSS) 문서는 그래프형 지식베이스이므로
 - 텐션(Tension) 기록(record)의 감지자·관점·대상·맥락·원문 감각 존재
 - 해석·원인·평가·활용 필드가 선택 사항이며 상태별 근거가 분리됨
 - 텐션(Tension) 수·강도가 자동 품질 점수나 수정 우선순위로 사용되지 않음
+- 비트(Beat) 문서의 Catalog 등록, 소속 Scene·전후 분기 참조, Beat 입력·변화·근거의 존재 여부
+- 경계 조건(Edge Case)의 근거 상태, 처리 판단, 검증 상태, 추적 상태의 분리, 추적 종료 시 이유·범위·잔여·재개방 조건
 - 장기 텐션(Tension)은 필요할 때 관점·구조·시간·완결(Closure)·관념(Notion)을 가로지르는 궤적이 저널(Journal)에 보이고, 종결 상태(Closed)에는 이유(Reason)·잔여(Residual)·재개방 신호(Reopen Signal)가 보존됨
 - 스테이징 관점(Staging Perspective)과 세계 안의 역할(Role)이 구분되고, 재구성의 출처와 정본 환류 위치가 필요한 만큼 연결됨
 - 백스테이지(Backstage) 질문이 필요한 군(Family)만 사용되고, 발견된 의미가 기존 SSS 요소와 근거로 환류됨

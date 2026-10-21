@@ -24,6 +24,8 @@ Scenario 전용 템플릿은 기본 제공하지 않는다. Scenario는 모든 �
 - [씬(Scene)](scene-template.md)
 - [인과성(Causality) 엣지(edge)](causality-template.md)
 - [완결 단위(Closure Unit)](closure-unit-template.md)
+- [독립 비트(Beat) 상세 기록](beat-template.md)
+- [비트 카탈로그(Beat Catalog)](beat-catalog-template.md)
 
 액터(Actor)·소품(Prop)·세팅(Setting)·장소(Location)은 배타적 분류가 아니다. 복합 실체나 외부·재사용 구성이 여러 읽기를 가질 때에는 새 유형의 템플릿을 만들기보다, 현재 질문에서 실제로 성립하는 책임을 각 정본에 기록하고 서로 링크한다. 성립 조건(Constitutive Condition)·환경 전제(Environmental Premise)·관념적 선택(Notional Choice)은 필요할 때만 편입 경계를 검토하는 렌즈로 사용한다.
 
@@ -33,6 +35,8 @@ Scenario 전용 템플릿은 기본 제공하지 않는다. Scenario는 모든 �
 - [인과성 오버뷰(Causality Overview)](causality-overview-template.md)
 - [완결 오버뷰(Closure Overview)](closure-overview-template.md)
 - [근거·커버리지(Evidence Coverage)](evidence-coverage-template.md)
+- [완료 조건(Edge Case) Ledger](edge-case-ledger-template.md)
+- [완료 조건(Edge Case) Record](edge-case-record-template.md)
 
 ## 탐색·실현·환류·조율
 

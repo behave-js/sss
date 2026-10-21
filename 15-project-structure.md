@@ -31,6 +31,9 @@ project-sss/
 │  ├─ 00-scene-catalog.md
 │  ├─ <scene-id>.md
 │  └─ 99-evidence-coverage.md
+├─ beats/
+│  ├─ 00-beat-catalog.md
+│  └─ <beat-id>.md
 ├─ causalities/
 │  ├─ 00-causality-overview.md
 │  └─ <edge-id>.md
@@ -62,6 +65,9 @@ project-sss/
 │     │  ├─ software-quality.md
 │     │  └─ dramatic-narrative-quality.md
 │     └─ <quality-orchestration-id>.md
+├─ edge-cases/
+│  ├─ 00-edge-case-ledger.md
+│  └─ <edge-case-id>.md
 ├─ evidence/
 │  ├─ 00-evidence-ledger.md
 │  ├─ unknowns.md
@@ -95,6 +101,8 @@ Scenario-Semantic Synthesis(SSS)의 `Scenario`는 기본 디렉터리나 정본 
 - 리플렉션(Reflection): `RFL-<scope>-###`
 - 오케스트레이션(Orchestration): `ORC-<scope>-###`
 - 품질 관심사 오케스트레이션(Quality Concern Orchestration): `QCO-<scope>-###`
+- 비트(Beat): `BEAT-###`
+- 경계 조건(Edge Case): `EC-###`
 
 번호는 순서를 암시할 수 있으므로 씬(Scene)의 실제 시간 순서가 자주 바뀌는 프로젝트에서는 UUID 또는 의미 slug를 사용해도 된다. 한 번 외부에서 참조한 ID는 가능한 재사용하지 않는다.
 
@@ -128,7 +136,7 @@ outgoing_edge: [EDG-022, EDG-023]
 
 - 액터(Actor)의 전역 정체성은 액터(Actor) 문서가 정본이다.
 - 소품(Prop)의 전체 상태 호는 소품(Prop) 문서가 정본이다.
-- 씬(Scene)의 목적·권한·비트(Beat)는 씬(Scene) 문서가 정본이다.
+- 씬(Scene)의 목적·권한·비트(Beat)의 배치·순서는 씬(Scene) 문서가 정본이다.
 - 구체적인 씬(Scene) 간 전달 평가는 인과성(Causality) 문서가 정본이다.
 - 시작과 종료의 생애는 완결(Closure) 문서가 정본이다.
 - 반복 주제(Subject)와 지식의 탐색 경로는 주제(Subject) 문서가 정본이다.
